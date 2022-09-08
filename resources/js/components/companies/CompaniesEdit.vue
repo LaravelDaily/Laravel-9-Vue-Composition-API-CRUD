@@ -55,7 +55,7 @@
 
 <script setup>
 import useCompanies from "@/composables/companies";
-import { defineProps, onMounted } from "vue";
+import { onMounted } from "vue";
 
 const { errors, company, getCompany, updateCompany } = useCompanies()
 const props = defineProps({
